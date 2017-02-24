@@ -7,13 +7,11 @@ export default class LinkTo extends React.Component {
     this.itemStyle={
       width:'25%',
       cursor:'pointer',
-      background:'#724A41',
-      padding:'7px',
-      textAlign:'center',
+      paddingLeft:'25px',
 
     }
     this.linkStyle={
-      color:'#f9e7b1',
+      color:'rgba(250,250,250,.7)',
       textDecoration:'none',
       fontWeight:'bold',
       fontSize:'1.6em',

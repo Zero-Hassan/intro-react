@@ -32,6 +32,9 @@ module.exports={
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({mangle:false,sourcemap:false}),
   ],
+  devServer: {
+    port: 8008
+  },
 }
 
 //console.log("%cHassan", "color: red; font-size: 100pt;");

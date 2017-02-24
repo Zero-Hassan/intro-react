@@ -1,0 +1,27 @@
+.fixed-box{
+  display:flex;
+  align-items: center;
+  flex-flow: column;
+  .top-box{
+   width: 100%;
+   background: #777;
+  }
+  .body-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .add{
+      width: 50%;
+    }
+    .details{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+      div{
+        width:100%;
+      }
+    }
+
+  }
+}

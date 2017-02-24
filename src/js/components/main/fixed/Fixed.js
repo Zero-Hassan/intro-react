@@ -1,4 +1,4 @@
-require('./detail.scss')
+require('./fixed.scss');
 import React from "react";
 import Totales from './Totales';
 import AddCost from './AddCost';
@@ -38,10 +38,23 @@ componentDidMount(){
 
   render(){
     return (
-      <div>
-      <Totales />
-      <AddCost />
-      <Details costs={this.state.costs} />
+      <div className='fixed-box'>
+        <div className='top-box'>
+          <Totales />
+        </div>
+        <div class="body-box">
+          <div className="add">
+            <AddCost />
+          </div>
+          <div className="details">
+          <div className='box'>
+          <span>Date</span>
+          <span>Description</span>
+          <span>importe</span>
+          </div>
+          <Details costs={this.state.costs} />
+          </div>
+        </div>
       </div>
     )
   }

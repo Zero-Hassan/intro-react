@@ -6,12 +6,12 @@ export default class Header extends React.Component {
     super();
     this.headerStyle={
       width:'100%',
-      height:'60px',
-      backgroundColor:'#F26142',
-      color:'#fff',
+      height:'5vh',
+      backgroundColor:'#797156',
       display:'flex',
       alignItems:'center',
-      justifyContent:'space-around'
+      justifyContent:'space-between',
+      position:'fixed',
     };
 
   }

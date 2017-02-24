@@ -7,13 +7,11 @@ export default class App extends React.Component {
  constructor(){
    super();
    this.appStyle={
-     width:'70%',
-     margin:'auto',
      backgroundColor:'#f9e7b1',
    };
    this.mainStyle={
-     height:'61.11vh',
-     padding:'25px'
+     height:'83vh',
+     paddingTop:'7vh'
 
    }
  }
